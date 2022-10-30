@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.no-border{
+    border: 0 !important;
+}
+
+.navbar{
+    margin-top: 0;
+    overflow: hidden;
+    padding: 0 !important;
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navsocial{
+    position: relative;
+    left: 5%;
+    margin-top: 0;
+    margin-top: 0;
+    padding-top: 1.5%;
+    padding-right: 10%;
+}
+
+@media (max-width: 1000px) {
+    .navsocial{
+        visibility: hidden;
+    }
+}
+
+
+.width{
+    width: 70%;
+}
+
+.footer-nav{
+    width: 50%;
+    list-style: none;
+    float: left;
+}
+.footer-nav li a{
+    font-size: 110%;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.fb,.insta,.twitter{
+    padding: 0 %;
+    color: #e8e8e8;
+    font-size: 120%;
+}
+
+.fb:hover{
+    color: #3b5998;
+}
+
+.insta:hover{
+    color: #ad0a8a;
+}
+
+.twitter:hover{
+    color: #00aced;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    padding: 2%;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+.social-links li a:link
+.social-links li a:visited{
+    font-size: 160%;
+}
+
+.clearfix {zoom:1}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.contact-form{
+    margin: 0 auto;
+    width: 60%;
+}
+@media (max-width: 1000px) {
+    .contact-form {
+        width: 90%;
+    }
+  }
+
+.section-form{
+    height: 100%;
+    padding: 5% 0;
+    text-align: left;
+}
+
+.section-plans{
+    background-color: #f4f4f4;
+    padding: 5% 10%;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 2%;
+}
+
+.plan-box div{
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price{
+    font-size: 300%;
+    font-weight: 100;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.plan-price-meal{
+    font-size: 80%;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0px;
+}
+
+.plan-box div:last-child{
+    border: 0;
+    text-align: center;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.app-screen{
+    width: 40%;
+
+}
+
+.rowwid{
+    padding: 1.5% 0;
+}
+
+.rowbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+    .rowbox {
+      flex-direction: column;
+    }
+  }
+
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('/images/Aloo-Paratha.jpg');
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 5% 0;
+}
+
+.works-step{
+    margin-bottom: 7%;
+}
+
+
+.works-step div{
+    color: #e67e22;
+    border: 4px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 2px;
+    float: left;
+    margin-right: 25px;
+    font-size: 150%;
+}
+
+
+
+.section-cities{
+    margin-top: 5% 0;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.section-steps{
+    background-color: #f4f4f4;
+    padding: 3% 0;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+.steps-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 5%;
+}
+.steps-box:last-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 7%;
+}
+
+.steps-box p{
+    text-align: left;
+}
+
+.row{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid, .container{
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.section-meals{
+    height: auto;
+    padding: 1% 0;
+}
+
+.meal-showcase{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+@media (max-width: 1000px) {
+    .meal-showcase {
+      flex-direction: column;
+    }
+  }
+
+.meal-showcase li{
+    display: block;
+    float: left;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    padding: 3%;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 5%;
+}
+
+.section-features{
+    margin: 5% 5%;
+}
+
+.section-features .feature-para{
+    margin-bottom: 5%;
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.feature-para{
+    line-height: 145%;
+    width: 100%;
+    text-align: center;
+}
+
+.header-text{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+.main-nav{
+    width: 100%;
+    height: 100%;
+    float: right;
+    padding: 0;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 1% 10%;
+}
+
+.main-nav li a:link, .main-nav li a:visited{
+    color: #e8e8e8 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    line-height: 120%;
+    border-radius: 4px;
+}
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+.btnn, input[type=submit]{
+    padding: 3% 8% !important;
+}
+
+.btn:link, .btn:visited, input[type=submit]{
+    text-decoration: none;
+    padding: 1% 2%;
+    font-weight: 300;
+    border-radius: 200px !important;
+    border-radius: 15%;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-first:link, .btn-first:visited, input[type=submit]{
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    margin-right: 2%;
+}
+
+.btn-more:link, .btn-more:visited{
+    border: 1px solid #e67e22 !important;
+    color: #e67e22;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid transparent;
+}
+
+.btn:hover, .btn:active, input[type=submit]:hover, input[type=submit]:active{
+    background-color: #cf6d17;
+}
+.btn-more:hover, .btn-more:active{
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+.btn-first:hover, .btn-first:active, input[type=submit]:hover, input[type=submit]:active{
+    border: 1px solid #cf6d17;
+}
+
+.btn-app:link, .btn-app:visited{
+    border: 0;
+}
+
+html{
+    background-color: #fff;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('/images/aloo-paneer-paratha.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin-top: 5 !important;
+    margin-bottom: 5% !important;
+    line-height: 130%;
+    padding: 0 !important;
+    color: #e8e8e8;
+    font-size: 240% !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1%;
+    letter-spacing: 1px;
+}
+
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 4%;
+}
+
+a:link, a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+}
+
+a:hover, a:active{
+    color: #555;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.5s, color 0.5s;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+}
+
+blockquote::before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3px;
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 5%;
+}
+
+footer  p{
+    color: #888;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 4%;
+}
+
