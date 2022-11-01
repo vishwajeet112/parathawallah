@@ -13,10 +13,6 @@
     color: #cf6d17;
 }
 
-.btn{
-    background-color: #e67e22;
-}
-
 #whatsappbtn:link,#whatsappbtn:visited{
     background-color: #cf6d17 !important;
     text-decoration: none;
