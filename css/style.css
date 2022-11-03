@@ -16,20 +16,17 @@
 #whatsappbtn:link,#whatsappbtn:visited{
     background-color: #cf6d17 !important;
     text-decoration: none;
-    text-align: center;
-    width: 200px !important;
-    padding: 1% 40% !important;
+    width: 100% !important;
     font-weight: 300;
     border-radius: 100px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: #fff;
     border: 2px solid #e67e22;
-    margin-right: 2%;
 }
 
 #whatsappbtn:hover,#whatsappbtn:active{
-    background-color: #2BB741;
-    border: 2px solid #2BB741;
+    background-color: #2BB741 !important;
+    border: 2px solid #2BB741 !important;
 }
 
 
