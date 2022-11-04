@@ -29,8 +29,13 @@
     border: 2px solid #2BB741 !important;
 }
 
+.colorlink{
+    color: #cf6d17;
+    text-decoration: none;
+}
 
 .navbar{
+    border: 0;
     margin-top: 0;
     overflow: hidden;
     padding: 0;
