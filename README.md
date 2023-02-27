@@ -5,4 +5,4 @@ A Responsive restaurant site that provides No Contact Delivery. You can place yo
 # Technologies Used
 HTML5, CSS, JavaScript, jQuery, Bootstrap
 
-Visit <a href="https://parathawallah.com">Live Website</a>
+# Visit <a href="https://parathawallah.com">Live Website</a>
