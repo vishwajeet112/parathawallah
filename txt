@@ -59,3 +59,21 @@
       </div>
     </form>
     </section> -->
+
+          <!-- <div class="row rowbox">
+        <div class="col col-sm box rowcity">
+          <img src="resources/img/varanasi.jpeg">
+          <div class="city-feature">
+            <ion-icon name="person-circle-outline" class="icon-small"></ion-icon>
+            160+ Happy Eaters
+          </div>
+          <div class="city-feature">
+            <ion-icon name="star-sharp" class="icon-small"></ion-icon>
+            5+ Chefs
+          </div>
+          <div class="city-feature">
+              <ion-icon name="logo-instagram" class="icon-small"></ion-icon>
+              <a href="https://instagram.com/parathawallah">@parathawallah</a>
+          </div>
+        </div>
+      </div> -->
